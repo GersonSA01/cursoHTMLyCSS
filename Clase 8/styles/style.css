@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.logo_menu{
+    width: 100px;
+}
+
+
+
+.menu {
+      display:flex;
+      list-style-type: none;
+      
+   
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.item a{
+    color: white;
+    padding-right: 50px;
+    text-decoration: none;
+    font-size:25px ;
+
+}
+
+
+
+
+
+.parrafo_logo h2{
+    color:white;
+    font-size: 50px;
+    font-family: 'Bruno Ace', cursive;
+    background-color: black;
+    text-align: center;
+}
+
+.parrafo_logo p{
+    background-color: black;
+    padding: 150px;
+    display: flex;
+    height: 50vh;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tarjetas{
+    display: flex;
+    padding: 30px;
+    gap:30px;
+    background-color: white;
+    padding: 20px;
+    height: 100vh;
+    background-color: black;
+}
+
+
+
+/*Netflix*/
+
+.supernetflix{
+    background-color:brown ;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 33%;
+    height: 450px;
+    -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+
+}
+
+.netflix:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
+.Nimagen{
+    width: 100%;
+}
+
+.Ntitulo{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Bruno Ace', cursive;
+    text-align: center;
+}
+
+.Nparrafo{
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+    text-align: justify;
+    padding: 10px;
+
+}
+
+
+.Nboton{
+    background-color:darkred;
+    color:white ;
+    padding: 5px;
+    border:none;
+    border-radius: 10px;
+    
+}
+
+/*DISNEY*/
+
+.superdisney{
+    background-color:darkblue ;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 33%;
+    height: 450px;
+    -webkit-animation: slide-in-blurred-bottom 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    animation: slide-in-blurred-bottom 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+
+
+}
+
+.disney:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.Dimagen{
+    width: 100%;
+}
+
+.Dtitulo{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Bruno Ace', cursive;
+    text-align: center;
+}
+
+.Dparrafo{
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+    text-align: justify;
+    padding: 10px;
+
+}
+
+
+.Dboton{
+    background-color:blue;
+    color:white ;
+    padding: 5px;
+    border:none;
+    border-radius: 10px;
+    
+    
+}
+
+/*SPOTIFY*/
+
+.superspotify{
+    background-color:darkgreen ;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 34%;
+    height: 450px;
+    -webkit-animation: slide-in-blurred-right 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    animation: slide-in-blurred-right 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+
+}
+
+.spotify:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
+.Simagen{
+    width: 40%;
+
+}
+
+.Stitulo{
+    padding-top: 20px;
+
+    font-size: 20px;
+    font-family: 'Bruno Ace', cursive;
+    text-align: center;
+}
+
+.Sparrafo{
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+    text-align: justify;
+    padding: 10px;
+
+}
+
+
+.Sboton{
+    background-color:green;
+    color:white ;
+    padding: 5px;
+    border:none;
+    border-radius: 10px;
+    
+    
+}
+
+
+
+
+
+ @-webkit-keyframes slide-in-blurred-left {
+    0% {
+      -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+              transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+      -webkit-transform-origin: 100% 50%;
+              transform-origin: 100% 50%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+              transform: translateX(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-blurred-left {
+    0% {
+      -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+              transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+      -webkit-transform-origin: 100% 50%;
+              transform-origin: 100% 50%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+              transform: translateX(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes slide-in-blurred-right {
+    0% {
+      -webkit-transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
+              transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
+      -webkit-transform-origin: 0% 50%;
+              transform-origin: 0% 50%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+              transform: translateX(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-blurred-right {
+    0% {
+      -webkit-transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
+              transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
+      -webkit-transform-origin: 0% 50%;
+              transform-origin: 0% 50%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+              transform: translateX(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  
+
+@-webkit-keyframes slide-in-blurred-bottom {
+    0% {
+      -webkit-transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+              transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+              transform: translateY(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-blurred-bottom {
+    0% {
+      -webkit-transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+              transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+              transform: translateY(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  

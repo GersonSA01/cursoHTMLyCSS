@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Merriweather:wght@700;900&display=swap');
+
+/*font-family: 'Bruno Ace', cursive;
+font-family: 'Merriweather', serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+.menuP ul{
+    display: flex;
+    list-style-type: none;
+    background-color:rgb(7, 7, 36);
+    justify-content:space-around;
+    padding: 15px;
+    
+
+}
+
+
+.menuP_item{
+    display:inline-block
+    
+}
+
+.menuP_item a{
+    padding: 7px 35px 7px 35px ;
+    color:white;
+    margin-inline: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Carlito', sans-serif;
+
+
+}
+
+.menuP_item.active a{
+    border-radius: 50px;
+    background-color:tomato;
+    
+}
+
+.menuP_item a:hover{
+    color:lightblue;
+    transition: .5s;
+}
+
+.logo{
+    width: 100px;
+}
+
+.header1{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+      display:flex;
+      list-style-type: none;
+      
+   
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.menu__item{
+    margin: 10px;
+}
+
+.menu__item a{
+    text-decoration: none;
+    color:white;
+}
+
+.menu__item.active a{
+    text-decoration: underline;
+}
+
+
+.imagenPrincipal{
+    background-image: url("../img/streaming.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 150px;
+}
+
+
+
+.imagenPrincipal h2{
+    color:white;
+    font-size: 50px;
+    font-family: 'Bruno Ace', cursive;
+}
+
+.parrafo_logo p{
+    background-color: black;
+    padding: 150px;
+    display: flex;
+    height: 50vh;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.tarjetas{
+    display: flex;
+    padding: 30px;
+    gap:30px;
+    background-color: black;
+    padding: 20px;
+}
+
+
+
+
+/*Netflix*/
+
+.netflix{
+    background-color:brown ;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 33%;
+
+}
+
+
+.Nimagen{
+    width: 100%;
+}
+
+.Ntitulo{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Bruno Ace', cursive;
+    text-align: center;
+}
+
+.Nparrafo{
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+    text-align: justify;
+    padding: 10px;
+
+}
+
+
+.Nboton{
+    background-color:darkred;
+    color:white ;
+    padding: 5px;
+    border:none;
+    border-radius: 10px;
+    
+}
+
+/*DISNEY*/
+
+.disney{
+    background-color:darkblue ;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 33%;
+
+
+}
+
+
+.Dimagen{
+    width: 100%;
+}
+
+.Dtitulo{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Bruno Ace', cursive;
+    text-align: center;
+}
+
+.Dparrafo{
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+    text-align: justify;
+    padding: 10px;
+
+}
+
+
+.Dboton{
+    background-color:blue;
+    color:white ;
+    padding: 5px;
+    border:none;
+    border-radius: 10px;
+    
+    
+}
+
+/*SPOTIFY*/
+
+.spotify{
+    background-color:darkgreen ;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 34%;
+
+}
+
+
+.Simagen{
+    width: 40%;
+
+}
+
+.Stitulo{
+    padding-top: 20px;
+
+    font-size: 20px;
+    font-family: 'Bruno Ace', cursive;
+    text-align: center;
+}
+
+.Sparrafo{
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+    text-align: justify;
+    padding: 10px;
+
+}
+
+
+.Sboton{
+    background-color:green;
+    color:white ;
+    padding: 5px;
+    border:none;
+    border-radius: 10px;
+    
+    
+}
+
+.pie{
+    background-color:dimgray;
+    color:white;
+    text-align: center;
+    display:flex;
+    padding: 20px;
+    justify-content: center;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+    }
+    
+    h3{
+    font-size: 24px;
+    margin-left: 50px;
+    padding-left: 350px;
+
+    }
+    
+    p{
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 0 400px 0 400px;
+    padding-bottom: 20px;
+    }
